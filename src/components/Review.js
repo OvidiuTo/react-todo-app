@@ -15,6 +15,8 @@ function Review(){
                 <li>3. 10/10</li>
                 <div class="divider"/>
                 <li>4. Would work with it again</li>
+                <div class="divider"/>
+                <li>P.S. I don't like Git at all.</li>
             </ul>
         </div>
     );
