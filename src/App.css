@@ -7,11 +7,10 @@
   }
   
   body {
-    background: linear-gradient(
-      90deg,
-      rgba(48, 16, 255, 1) 0%,
-      rgba(100, 115, 255, 1) 100%
-    );
+    background-color: #878a96;
+    background-image:url("./images/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
   }
   .todo-app {
     display: flex;
@@ -26,10 +25,90 @@
     padding-bottom: 32px;
   }
   
+  .review-list{
+      list-style-type: none;
+      color:white;
+      font-size: 20px;
+  }
+ 
   h1 {
     margin: 32px 0;
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
+  }
+
+  .home-button{
+  background-color: #333;
+  border: 1px solid #333;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  outline:none;
+  }
+
+  .review-button{
+    background-color: #333;
+  border: 1px solid #333;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  outline:none;
+  }
+
+  .todo-app-button{
+    background-color: #333;
+  border: 1px solid #333;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  outline:none;
+  }
+  .todo-app-button:focus, .todo-app-button:hover{
+    background-color: #666;
+  }
+  .review-button:focus, .review-button:hover{
+    background-color: #666;
+  }
+  .home-button:focus, .home-button:hover{
+    background-color: #666;
+  }
+
+  .home-text{
+    font-size: 25px;
+    color: white;
+  }
+
+  .home-emoji{
+    color:white;
+    font-size: 80px;
+    position: relative;
+    top:100px;
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-bottom: 5px solid #161a2b;
+  }
+
+
+  .divider{
+    width:30px;
+    height:auto;
+    display:inline-block;
+}
+
+  .buttons{
+    text-align: center;
   }
   
   .complete {
